@@ -1,23 +1,23 @@
-#!/bin/sh
-# git commit script to automate the most common usecase 
+#!/bin/bash
+# Automated Git Commit and Push Script
 
-# make sure we are in the right directory
+# Navigate to the project directory
 cd ~/ecmacom
 
-# make sure we are at the latest version of main
+# Fetch and merge the latest changes from the remote main branch
 git pull
 
-# add everything since the last git commit
-git add ./*
+# Stage all changes in the current directory and subdirectories
+git add .
 
-# display status
+# Display the current status of the repository
 git status
 
-# ask the user for a sensible git commit
-read -p "what are you commiting? " commitstatement
+# Prompt the user for a commit message
+read -p "Enter a descriptive commit message: " commit_message
 
-# commiting changes using user input as comment
-git commit -m "$commitstatement"
+# Commit the staged changes with the user-provided message
+git commit -m "$commit_message"
 
-# push changes to repo
+# Push the committed changes to the remote repository
 git push
