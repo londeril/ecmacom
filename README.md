@@ -4,3 +4,5 @@ This repo contains scripts for automation and maintenance of our infrastructure.
 As always: The scripts come with the usual "it works on our machines" disclaimer. Please don^t open issues if the scripts do not work on your systems.
 
 We are happy to consider pull requests if you are contributing to the overall performance of the scripts :) 
+
+The Ecmacom Team
