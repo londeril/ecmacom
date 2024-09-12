@@ -1,1 +1,2 @@
 # Ecmacom Code Base
+This repo contains scripts for automation and maintenance of our infrastructure. The scripts in this repo are open source and can be used and modified in any shape or form. We only ask that you link back to this repo when using scripts from it. Unless the script heavily modified and is a new creation in its own right.
