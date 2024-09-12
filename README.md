@@ -1,8 +1,11 @@
 # Ecmacom Code Base
-This repo contains scripts for automation and maintenance of our infrastructure. The scripts in this repo are open source and can be used and modified in any shape or form. We only ask that you link back to this repo when using scripts from it. Unless the script was heavily modified and is a new creation in its own right.
 
-As always: The scripts come with the usual "it works on our machines" disclaimer. Please don't open issues if the scripts do not work on your systems.
+Welcome to the Ecmacom Code Base repository, a collection of open-source scripts designed for the automation and maintenance of our infrastructure. We encourage you to use and modify these scripts to suit your needs. We kindly request that you provide attribution by linking back to this repository when using our scripts, unless you've significantly modified them to create an entirely new work.
 
-We are happy to consider pull requests if you are contributing to the overall performance of the scripts :) 
+## Disclaimer
 
-The Ecmacom Team
+Please note that while these scripts function effectively in our environment, we cannot guarantee their performance on all systems. As such, we operate under the "it works on our machines" principle. We kindly ask that you refrain from opening issues if the scripts do not work as expected on your specific setup.
+
+## Contributions
+
+We welcome contributions that enhance the overall performance and functionality of our scripts. If you'd like to contribute, please submit a pull request for our review.
