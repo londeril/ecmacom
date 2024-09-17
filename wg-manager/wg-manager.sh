@@ -24,7 +24,9 @@
 # check if the config file is present - if not create the config file with base
 # values to chow the users what global variables are needed
 
-if [ -f "./wg-manager.conf" ]; then
+WIREGUARDDIR="/etc/wireguard/"
+
+if [ -f "$WIREGUARDDIR/wg-manager.conf" ]; then
     if grep -q "GENERATED DEFAULTS" "./wg-manager.conf"; then
         echo ""
         echo "Error: The config file was not edited or the GENERATED DEFAULTS line was not removed."
@@ -32,7 +34,7 @@ if [ -f "./wg-manager.conf" ]; then
         echo ""
         exit 1
     else
-        source ./wg-manager.conf
+        source $WIREGUARDDIR/wg-manager.conf
     fi
 else
     echo ""
@@ -51,7 +53,7 @@ else
         echo 'ALLOWED_IPS="10.0.100.0/24,x.x.x.x"'
         echo 'DNS="x.x.x.x"'
         echo 'CONFFILE_NAME="office"'
-    } > "./wg-manager.conf"
+    } > "$WIREGUARDDIR/wg-manager.conf"
 
     exit 1
 
