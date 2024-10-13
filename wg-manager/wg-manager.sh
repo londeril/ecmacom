@@ -1,7 +1,7 @@
 #!/bin/bash
 # Title: wg-manager.sh
 # Author: Daniel Mueller
-# Version: 1.2 (8.9.2024)
+# Version: 1.3 (13.10.2024)
 #
 # Purpose: This script automates the management of WireGuard VPN peers (clients).
 # It simplifies the process of adding, removing, and listing peers, as well as
@@ -58,8 +58,6 @@ else
   exit 1
 
 fi
-
-# TODO: this is a todo
 
 # Function to get the next available IP address
 get_next_ip() {
