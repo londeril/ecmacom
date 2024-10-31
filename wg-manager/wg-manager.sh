@@ -24,10 +24,10 @@
 # check if the config file is present - if not create the config file with base
 # values to chow the users what global variables are needed
 
-WIREGUARDDIR="/etc/wireguard/"
+WIREGUARDDIR="/etc/wireguard"
 
 if [ -f "$WIREGUARDDIR/wg-manager.conf" ]; then
-  if grep -q "GENERATED DEFAULTS" "./wg-manager.conf"; then
+  if grep -q "GENERATED DEFAULTS" "${WIREGUARDDIR}/wg-manager.conf"; then
     echo ""
     echo "Error: The config file was not edited or the GENERATED DEFAULTS line was not removed."
     echo "Please edit the file and remove the GENERATED DEFAULTS line to use wg-manager."
