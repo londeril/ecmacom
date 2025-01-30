@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 sudo apt install zsh git kitty-terminfo
-cd /home/sysmin/linux-vm-defaults/
+cd /home/sysmin/ecmacom/linux-vm-defaults/
 tar xfvz oh-my-zsh.tar.gz
 rm oh-my-zsh.tar.gz
 mv .oh-my-zsh /home/sysmin/
