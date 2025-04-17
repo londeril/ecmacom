@@ -78,11 +78,11 @@ plugins=(
   	rbenv
   	ruby
   	npm
-  	zsh-autosuggestions
-  	zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # User configuration
 
