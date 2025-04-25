@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 sudo apt install zsh git kitty-terminfo zsh-autosuggestions zsh-syntax-highlighting
-cd /home/sysmin/ecmacom/linux-vm-defaults/
+cd /opt/ecmacom/linux-vm-defaults/
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 mkdir /home/sysmin/.config
 cp -r zsh /home/sysmin/.config/zsh
