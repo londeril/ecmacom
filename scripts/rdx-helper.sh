@@ -3,6 +3,8 @@
 
 usage() {
   cat <<EOF
+This script will unmount and eject the given RDX drive, or mount it.
+
 Usage: $0 [--add|--remove] <device>
 
 Examples:
